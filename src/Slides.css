@@ -1,0 +1,42 @@
+.siding{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.siding .ss{
+   color: #606060;
+   font-size: large !important;
+
+}
+.siding .sss{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.siding:hover{
+background-color: lightgray;
+cursor: pointer;
+}
+.siding:hover > .ss{
+color: red;
+}
+.siding:hover > .sss{
+    font-weight: bold;
+    }
+
+    .siding.selected{
+        background-color: lightgrey;
+    }
+    .siding.selected > .ss{
+        color: red;
+    }
+    .siding.selected > .sss{
+        font-weight: bold;
+    }
+
+
+
+
+
